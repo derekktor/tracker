@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "username": "derek",
+            "password": "1234",
+            "email": "baldka1109bh@gmail.com"
+        },
+        {
+            "user_id": 2,
+            "username": "albert",
+            "password": "qwerty",
+            "email": "albert@gmail.com"
+        }
+    ],
+    "habits": [
+        {
+            "habit_id": 1,
+            "name": "exercise",
+            "frequency": 1,
+            "duration": 20,
+            "user_id": 1
+        },
+        {
+            "habit_id": 2,
+            "name": "cold shower",
+            "frequency": 2,
+            "duration": 5,
+            "user_id": 1
+        },
+        {
+            "habit_id": 1,
+            "name": "exercise",
+            "frequency": 1,
+            "duration": 40,
+            "user_id": 2
+        }
+    ],
+    "sessions": [
+        {
+            "session_id": 1,
+            "timeStarted": "2022/11/22 11:00",
+            "timeFinished": "2022/11/22 11:30",
+            "note": "at minute 10, started to get out of breath",
+            "habit_id": 1
+        },
+        {
+            "session_id": 2,
+            "timeStarted": "2022/11/23 11:00",
+            "timeFinished": "2022/11/23 11:30",
+            "note": "at minute 15, started to get out of breath",
+            "habit_id": 1
+        },
+        {
+            "session_id": 3,
+            "timeStarted": "2022/11/22 11:00",
+            "timeFinished": "2022/11/22 11:30",
+            "note": "at minute 10, started to get out of breath",
+            "habit_id": 1
+        },
+        {
+            "session_id": 4,
+            "timeStarted": "2022/11/22 11:00",
+            "timeFinished": "2022/11/22 11:30",
+            "note": "at minute 10, started to get out of breath",
+            "habit_id": 1
+        }
+    ]
+
+}
