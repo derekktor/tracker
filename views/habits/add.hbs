@@ -1,0 +1,30 @@
+<h3>Add Habit</h3>
+<div class="row">
+    <form action="/habits" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="name" name="name" placeholder="Exercise, reading...">
+                <label for="name">Habit Name</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <input type="number" id="frequenct" name="frequency" placeholder="Once a day = 1, Once every 3 days = 3...">
+                <label for="frequency">Frequency</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <input type="number" id="duration" name="duration" placeholder="20 minutes...">
+                <label for="duration">Duration</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Save" class="btn">
+            <a href="/dashboard" class="btn orange">Cancel</a>
+        </div>
+    </form>
+</div>
